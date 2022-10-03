@@ -18,4 +18,4 @@ def conversion_binary (value):   #нет уточнения, какие числ
     return result
 
 a=int(input('Введите число для преобразования в двоичную СИ: '))
-print(conversion_binary(a))
+print(int(conversion_binary(a)))
